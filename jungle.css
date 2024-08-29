@@ -1,0 +1,69 @@
+
+.modal {
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top: 0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width:300px;
+    height:200px;
+    background-color:white;
+    border-radius:10px;
+    color:black;
+    position:absolute;
+    
+
+}
+.container {
+    background-color:red;
+    height:1000px;
+    background-image: url('/Users/acedavis/Desktop/jungle/g5nwojctk5051.webp');
+    width:100%;
+    background-size: cover;
+}
+#dino {
+    height:200px;
+    width:200px;
+    margin:200px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-150px);
+    }
+
+    60% {
+        transform: translateY(-75px);
+    }
+}
+
+#bear {
+    height:200px;
+    width:200px;
+    animation: fall 10s infinite;
+}
+@keyframes fall {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(1150px);
+    }
+
+
+}
